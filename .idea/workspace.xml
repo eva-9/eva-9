@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30f88946-0cc6-46e1-a2f3-8a649b84699a" name="Default Changelist" comment="" />
+    <list default="true" id="30f88946-0cc6-46e1-a2f3-8a649b84699a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,18 +31,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eva9/mapper/GroupMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eva9/service/impl/GroupServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -51,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -152,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/eva9/common/util/StringTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eva9/mapper/ArticleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eva9/mapper/PermissionDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eva9/service/impl/ArticleServiceImpl.java" />
@@ -203,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application-test.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -258,6 +258,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../android-sdk-macosx" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -372,7 +373,7 @@
       <workItem from="1578831755016" duration="248000" />
       <workItem from="1579485460818" duration="7111000" />
       <workItem from="1579672884116" duration="10453000" />
-      <workItem from="1579828019512" duration="9625000" />
+      <workItem from="1579828019512" duration="10204000" />
     </task>
     <servers />
   </component>
@@ -394,12 +395,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58490000" />
+    <option name="totallyTimeSpent" value="59069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27753934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27753934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -415,7 +417,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32968536" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32968536" />
       <window_info anchor="bottom" id="Docker" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -490,9 +492,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eva9/mapper/LoginMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -880,7 +879,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
